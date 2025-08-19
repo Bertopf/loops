@@ -8,10 +8,11 @@ public final class App {
     }
 
     /**
-     * Says hello to the world.
+     * Main.
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        MultiplicationTable table = new MultiplicationTable(5);
+        table.printTable();
     }
 }
